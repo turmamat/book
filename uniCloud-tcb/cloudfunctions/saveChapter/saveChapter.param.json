@@ -1,0 +1,8 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{				"accountId":"28ee4e3e601b9e8102dc6fa57b4b3657",
+				"bookName":"绝世唐门2",
+				"bookid":"161519831146850",
+				"chapterContent":"<p>阿达</p>",
+				"chapterName":"123"
+}

@@ -9,34 +9,252 @@
 		{
 			"path": "pages/login/login",
 			"style": {
+				"navigationBarTitleText":"",
 				"navigationStyle":"custom"
 			}
 		},{
 			"path": "pages/index/index",
 			"style": {
+				"enablePullDownRefresh": true,
+				"app-plus":{
+						"padding-right": "15px",
+						"titleNView":{
+							// "backgroundColor":"#00ffff",
+							"searchInput":{
+								"backgroundColor": "#fff",
+								"borderRadius": "10px", //输入框圆角
+								"placeholder": "请输入搜索内容",
+								"align":"center",
+								"disabled": true //disable时点击输入框不置焦，可以跳到新页面搜索
+							}
+							
+						}
+					}
+			}
+		},
+		{
+			"path": "pages/bookshop/bookshop",
+			"style": {
+				"navigationBarTitleText":"书城",
+				"app-plus":{
+						"padding-right": "10px",
+						"titleNView":{
+							// "backgroundColor":"#00ffff",
+							"searchInput":{
+								"backgroundColor": "#fff",
+								"borderRadius": "10px", //输入框圆角
+								"placeholder": "请输入搜索内容",
+								"align":"center",
+								"disabled": true //disable时点击输入框不置焦，可以跳到新页面搜索
+							}
+							
+						}
+					}
+			}
+		},
+		{
+			"path": "pages/test/test",
+			"style": {
+				"navigationBarTitleText":"",
 				"navigationStyle":"custom"
 			}
+		},
+		{
+			"path": "pages/application/application",
+			"style": {
+				"navigationBarTitleText":"申请创作"
+			}
+		},
+		{
+			"path": "pages/authorCheck/authorCheck",
+			"style": {
+				"navigationBarTitleText":"作家审批"
+			}
+		},{
+			"path": "pages/applicationBook/applicationBook",
+			"style": {
+				"navigationBarTitleText":"新书申请"
+			}
+		},{
+			"path": "pages/user/uploadChapter/uploadChapter",
+			"style": {
+				"navigationBarTitleText":"上传章节"
+			}
+		},{
+			"path": "pages/user/uploadChapter/detail/datail",
+			"style": {
+				"navigationBarTitleText":"上传章节"
+			}
+		},{
+			"path": "pages/user/mybook/mybook",
+			"style": {
+				"navigationBarTitleText":"我的创作"
+			}
+		},{
+			"path": "pages/bookCheck/detail/detail",
+			"style": {
+				"navigationBarTitleText":"书籍详情"
+			}
+		},{
+			"path": "pages/bookCheck/bookCheck",
+			"style": {
+				"navigationBarTitleText":"书籍审核"
+			}
+		},{
+			"path": "pages/authorCheck/detail/detail",
+			"style": {
+				"navigationBarTitleText":"作家审批"
+			}
+		},{
+			"path": "pages/community/detail/detail",
+			"style": {
+				"navigationBarTitleText":"评论"
+			}
+		},{
+			"path": "pages/community/idea/idea",
+			"style": {
+				"navigationBarTitleText":"发表心得",
+				"app-plus":{
+					"titleNView":{
+						"padding-right":"20rpx",
+						// "backgroundColor":"#00ffff",
+						"buttons":[
+							{
+								"text":"发布",
+								"fontSize":"32rpx",
+								"color":"#2B85E4"
+								
+							}
+						]
+						
+					}
+					}
+			}
+		},{
+			"path": "pages/reader/comment-detail/comment-detail",
+			"style": {
+				"navigationBarTitleText":"评论详情"
+				
+			}
+		},{
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText":"搜索",
+				"navigationStyle":"custom"
+			}
+			
 		},{
 			"path": "pages/community/community",
 			"style": {
-				"navigationStyle":"custom"
+				"enablePullDownRefresh": true,
+				"navigationBarTitleText":"社区",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinputMode":"adjustPan"
+				}
+			}
+		},{
+			"path": "pages/user/userinfo/userinfo",
+			"style": {
+				"navigationBarTitleText":"个人信息"
+			}
+		},
+		{
+			"path": "pages/reader/release/release",
+			"style": {
+				"navigationBarTitleText":"发表评论",
+				"app-plus":{
+					"titleNView":{
+						"padding-right":"20rpx",
+						// "backgroundColor":"#00ffff",
+						"buttons":[
+							{
+								"text":"发布",
+								"fontSize":"32rpx",
+								"color":"#2B85E4"
+								
+							}
+						]
+						
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/reader/book-baseinfo/book-baseinfo",
+			"style": {
+				"navigationBarTitleText":"图书信息"
+			}
+		},
+		{
+			"path": "pages/reader/allcomment/allcomment",
+			"style": {
+				"navigationBarTitleText":"全部评论"
+			}
+		},
+		{
+			"path": "pages/collect/collect",
+			"style": {
+				"navigationBarTitleText":"收藏"
+			}
+		},
+		{
+			"path": "pages/idea/idea",
+			"style": {
+				"navigationBarTitleText":"想法"
+			}
+		},
+		{
+			"path": "pages/readerRecord/readerRecord",
+			"style": {
+				"navigationBarTitleText":"阅读记录"
+			}
+		},
+		{
+			"path": "pages/bookshelf/bookshelf",
+			"style": {
+				"navigationBarTitleText":"我的书架",
+				"enablePullDownRefresh": true,
+				"app-plus":{
+						"padding-right": "15px",
+						"titleNView":{
+							// "backgroundColor":"#00ffff",
+							"searchInput":{
+								"backgroundColor": "#fff",
+								"borderRadius": "10px", //输入框圆角
+								"placeholder": "去搜索图书",
+								"align":"center",
+								"disabled": true //disable时点击输入框不置焦，可以跳到新页面搜索
+							}
+							
+						}
+					}
 			}
 		},
 		{
 			"path": "pages/login/forgetPW",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationBarTitleText":"忘记密码"
 			}
 		},
 		{
 			"path": "pages/login/register",
 			"style": {
-				"navigationStyle":"custom"
+				"navigationBarTitleText":"用户注册"
 			}
 		},
 		{
 			"path": "pages/user/user",
 			"style": {
+				"navigationBarTitleText":"",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/reader/reader",
+			"style": {
+				// "navigationBarTextStyle":"black",
+				"navigationBarTitleText":"reader",
 				"navigationStyle":"custom"
 			}
 		}
@@ -48,15 +266,25 @@
 		"backgroundColor": "#F8F8F8"
 	},
 	"tabBar": {
+			"borderStyle": "black",
+			"color": "#000000",
+			"selectedColor": "#436EEE",
+			"backgroundColor": "#FFFFFF",
 	    "list": [{
 	        "pagePath": "pages/index/index",
-	        "text": "首页"
+	        "text": "首页",
+					"iconPath":"static/tabBar/shouye.png",
+					"selectedIconPath":"static/tabBar/shouye1.png"
 	    }, {
 	        "pagePath": "pages/community/community",
-	        "text": "社区"
+	        "text": "社区",
+					"iconPath":"static/tabBar/shequ.png",
+					"selectedIconPath":"static/tabBar/shequ1.png"
 	    },{
 	        "pagePath": "pages/user/user",
-	        "text": "我的"
+	        "text": "我的",
+					"iconPath":"static/tabBar/wode.png",
+					"selectedIconPath":"static/tabBar/wode1.png"
 	    }]
 	}
 }

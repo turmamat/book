@@ -1,0 +1,7 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{	"accountId":"c89bd61c5fcf1cbd00e43603396d4a43",
+	"bookid":"161088294564735",
+	"chapterName":"第002章 剑源第二源",
+	"chapterIndex":"1"
+}

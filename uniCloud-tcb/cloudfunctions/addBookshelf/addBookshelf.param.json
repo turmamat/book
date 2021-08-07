@@ -1,0 +1,16 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+// {// 	"accountId":"c89bd61c5fcf1cbd00e43603396d4a43",
+// 	"obj":{
+// 		"bookid":"10001",
+// 		"bookName":"灵异调查员",
+// 		"img":"https://7463-tcb-pko5yqgb8bfjobuecbade-03b550-1304438654.tcb.qcloud.la/book/3242615.jpg"
+// 	}
+// }
+{	"accountId":"c89bd61c5fcf1cbd00e43603396d4a43",
+	"obj":{
+		"bookid":"161088294564735",
+		"bookName":"修罗剑皇",
+		"img":"http://nandao.tech/images/bookimg/book3188832.jpg"
+	}
+}

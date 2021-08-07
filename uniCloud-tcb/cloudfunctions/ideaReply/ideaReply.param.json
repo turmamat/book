@@ -1,0 +1,30 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+// ideaId:event.bookId,
+// 			content:event.content,
+// 			createBy:event.createBy,
+// 			headPortrait:event.headPortrait,
+	// "obj":{"content":"event.content","originator":"发起人","responder":"回复人","originatorAccount":"admin","responderAccount":"reader"}
+{
+	"type":0,
+	"ideaId":"161112906173141",
+	"content":"UI在2020年DCloud插件大赛中荣获一等奖,成功入选2020年GVP,成为GVP-Gitee最具价值开源项目. uView的理念是＂挣脱束缚,向往自由＂,目标是做uni-app生态",
+	"userName":"reader",
+	"accountId":"2424fa985fe2ab790065d2a63954bfa2",
+	"account":"admin",
+	"headPortrait":"https://7463-tcb-pko5yqgb8bfjobuecbade-03b550-1304438654.tcb.qcloud.la/userImg/touxiang.png"
+}
+// {
+// 	"type":1,
+// 	"id":"28ee4e3e6007f55a003ec24d31d57c31",
+// 	"obj":{
+// 		"content":"event.content",
+// 		"originator":"发起人",
+// 		"originatorId":"originatorId",
+// 		"responder":"回复人",
+// 		"responderId":"回复人ID",
+// 		"originatorAccount":"admin",
+// 		"responderAccount":"reader",
+// 		"headPortrait":"https://7463-tcb-pko5yqgb8bfjobuecbade-03b550-1304438654.tcb.qcloud.la/userImg/touxiang.png"
+// 		}
+// }

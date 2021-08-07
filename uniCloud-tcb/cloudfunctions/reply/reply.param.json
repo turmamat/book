@@ -1,0 +1,7 @@
+// 本文件中的json内容将在云函数【运行】时作为参数传给云函数。
+// 配置教程参考：https://uniapp.dcloud.net.cn/uniCloud/quickstart?id=runparam
+{
+	"type":1,
+	"bookId":"10001",
+	"commentId":"1",	"obj":{"content":"event.content","originator":"发起人","responder":"回复人","originatorAccount":"admin","responderAccount":"reader"}
+}

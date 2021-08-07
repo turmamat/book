@@ -1,0 +1,10 @@
+{
+"name":"ideaReply",
+"main":"index.js",
+"version":"1.0.0",
+"description":"",
+"cloudfunction-config":{
+	"TZ" : "Asia/Shanghai",
+	"memorySize" : 256,
+	"timeout" : 30
+}}
